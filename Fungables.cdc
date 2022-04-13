@@ -45,7 +45,7 @@ pub contract Fungables: NonFungibleToken {
                         name: self.name(),
                         description: self.description(),
                         thumbnail: MetadataViews.HTTPFile(
-                            url: "" // TODO: Fill in url
+                            url: "https://www.fungable.fun/images/fungable-vid.mp4"
                         )
                     )
             }
